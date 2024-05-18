@@ -2,7 +2,7 @@
 
 .container{
     display: grid;
-    grid-template-columns: 1fr  4fr;
+    grid-template-columns: minmax(200px,1fr)  4fr;
     grid-template-rows: 1fr 3fr;
 }
 
@@ -267,5 +267,5 @@ p{
     font-family: 'Inter';
 }
 .logo-text{
- margin-left: 1rem;   
+margin-left: 1rem;   
 }
